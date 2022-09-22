@@ -13,6 +13,7 @@ const third = document.querySelector(".third");
 
 btn.addEventListener('click', (e) =>
 {
+   e.preventDefault();
    dy.innerText = ` ${mm.value}/${yy.value}`;
    p.innerText = card.value;
    cvc.innerText = cv.value;
